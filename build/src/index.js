@@ -7,6 +7,7 @@ __export(require("./all"));
 __export(require("./contains"));
 __export(require("./regexToArray"));
 __export(require("./isFunction"));
+__export(require("./flatMap"));
 __export(require("./last-first"));
 __export(require("./min-max"));
 __export(require("./splitInGroups"));
