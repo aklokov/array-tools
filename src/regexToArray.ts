@@ -1,4 +1,4 @@
-export function execRegex(regex: RegExp, content: string): RegExpExecArray[] {
+export function regexToArray(regex: RegExp, content: string): RegExpExecArray[] {
   const matches: RegExpExecArray[] = [];
   let match = regex.exec(content);
   while (match) {

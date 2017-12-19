@@ -1,7 +1,7 @@
 {
-  "name": "tslib-seed",
+  "name": "arraytools-ts",
   "version": "1.0.0",
-  "description": "update this",
+  "description": "Set of DRY tools to work with array. Typescript style.",
   "files": [
     "build/src"
   ],
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/repinvv/tslib-seed.git"
+    "url": "git+https://github.com/repinvv/arraytools-ts.git"
   },
   "devDependencies": {
     "@types/chai": "^4.0.10",
