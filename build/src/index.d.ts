@@ -1,7 +1,6 @@
 export * from './all';
 export * from './contains';
 export * from './regexToArray';
-export * from './isFunction';
 export * from './flatMap';
 export * from './last-first';
 export * from './min-max';
