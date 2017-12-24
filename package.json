@@ -1,5 +1,5 @@
 {
-  "name": "array-tools-ts",
+  "name": "@vlr/array-tools",
   "version": "1.0.3",
   "description": "Set of DRY tools to work with array. Typescript style.",
   "files": [
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/repinvv/array-tools-ts.git"
+    "url": "git+https://github.com/repinvv/array-tools.git"
   },
   "devDependencies": {
     "@types/chai": "^4.0.10",
