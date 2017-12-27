@@ -1,0 +1,27 @@
+import { expect } from 'chai';
+import { sort } from '../src';
+
+describe('sort', function (): void {
+  it('should return new array', function (): void {
+    // arrange
+    const input = [1, 2, 0];
+
+    // act
+    const result = sort(input);
+
+    // assert
+    expect(result === input).to.be.equal(false);
+  });
+
+  it('should return sorted array', function (): void {
+    // arrange
+    const input = [{ level: 1 }, { level: 2 }, { level: 0 }];
+    const expected = [{ level: 0 }, { level: 1 }, { level: 2 }];
+
+    // act
+    const result = sort(input, i => i.level);
+
+    // assert
+    expect(result).to.be.deep.equal(expected);
+  });
+});

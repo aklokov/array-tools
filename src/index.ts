@@ -6,3 +6,4 @@ export * from './last-first';
 export * from './min-max';
 export * from './splitInGroups';
 export * from './unique';
+export * from './sort';

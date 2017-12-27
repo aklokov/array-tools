@@ -11,4 +11,5 @@ __export(require("./last-first"));
 __export(require("./min-max"));
 __export(require("./splitInGroups"));
 __export(require("./unique"));
+__export(require("./sort"));
 //# sourceMappingURL=index.js.map
