@@ -1,6 +1,6 @@
 {
   "name": "@vlr/array-tools",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set of DRY tools to work with array. Typescript style.",
   "files": [
     "build/src"

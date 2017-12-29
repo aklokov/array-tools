@@ -24,4 +24,16 @@ describe('sort', function (): void {
     // assert
     expect(result).to.be.deep.equal(expected);
   });
+
+  it('should sort by string as well', function (): void {
+    // arrange
+    const input = [{ level: 'b' }, { level: 'C' }, { level: 'a' }];
+    const expected = [{ level: 'C' }, { level: 'a' }, { level: 'b' }];
+
+    // act
+    const result = sort(input, i => i.level);
+
+    // assert
+    expect(result).to.be.deep.equal(expected);
+  });
 });

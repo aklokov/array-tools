@@ -5,5 +5,15 @@ export function sort<TItem, TVal>(array: TItem[], func?: (item: TItem) => TVal):
     return [...array].sort();
   }
 
-  return [...array].sort((item1, item2) => <any>func(item1) - <any>func(item2));
+  return [...array].sort((item1, item2) => {
+    const val1 = func(item1);
+    const val2 = func(item2);
+    if (val1 < val2) {
+      return - 1;
+    } else if (val1 > val2) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
 }
