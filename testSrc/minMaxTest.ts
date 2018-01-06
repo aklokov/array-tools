@@ -1,8 +1,8 @@
-import { expect } from 'chai';
-import { max, maxBy, min, minBy } from '../src';
+import { expect } from "chai";
+import { max, maxBy, min, minBy } from "../src";
 
-describe('min-max', function (): void {
-  it('should return maximum by selector', function (): void {
+describe("min-max", function (): void {
+  it("should return maximum by selector", function (): void {
     // arrange
     const input = [{ level: 1 }, { level: 2 }, { level: 0 }];
 
@@ -13,7 +13,7 @@ describe('min-max', function (): void {
     expect(result).to.be.equal(2);
   });
 
-  it('should return item with maximum value', function (): void {
+  it("should return item with maximum value", function (): void {
     // arrange
     const input = [{ level: 1 }, { level: 2 }, { level: 0 }];
 
@@ -24,7 +24,7 @@ describe('min-max', function (): void {
     expect(result).to.be.equal(input[1]);
   });
 
-  it('should return maximum', function (): void {
+  it("should return maximum", function (): void {
     // arrange
     const input = [1, 3, 2];
 
@@ -35,7 +35,7 @@ describe('min-max', function (): void {
     expect(result).to.be.equal(3);
   });
 
-  it('should return minimum by selector', function (): void {
+  it("should return minimum by selector", function (): void {
     // arrange
     const input = [{ level: 1 }, { level: 2 }, { level: 0 }];
 
@@ -46,7 +46,7 @@ describe('min-max', function (): void {
     expect(result).to.be.equal(0);
   });
 
-  it('should return item with minimum value', function (): void {
+  it("should return item with minimum value", function (): void {
     // arrange
     const input = [{ level: 1 }, { level: 2 }, { level: 0 }];
 
@@ -57,7 +57,7 @@ describe('min-max', function (): void {
     expect(result).to.be.equal(input[2]);
   });
 
-  it('should return minimum', function (): void {
+  it("should return minimum", function (): void {
     // arrange
     const input = [1, 3, 2];
 

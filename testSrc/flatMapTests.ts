@@ -1,8 +1,19 @@
-import { expect } from 'chai';
-import { flatMap } from '../src';
+import { expect } from "chai";
+import { flatMap } from "../src";
 
-describe('flatMap', function (): void {
-  it('should return concatenated arrays', function (): void {
+describe("flatMap", function (): void {
+  it("should return flattened array", function (): void {
+    // arrange
+    const input = [[1, 2], [2, 3]];
+
+    // act
+    const result = flatMap(input);
+
+    // assert
+    expect(result).to.be.deep.equal([1, 2, 2, 3]);
+  });
+
+  it("should return concatenated arrays", function (): void {
     // arrange
     const input = [{ items: [1, 2] }, { items: [2, 3] }];
 
@@ -12,7 +23,8 @@ describe('flatMap', function (): void {
     // assert
     expect(result).to.be.deep.equal([1, 2, 2, 3]);
   });
-  it('should not add items that are not array', function (): void {
+
+  it("should not add items that are not array", function (): void {
     // arrange
     const map = new Map<number, number[]>([[1, [2, 3]]]);
 
