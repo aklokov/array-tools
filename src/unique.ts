@@ -18,14 +18,3 @@ function uniqueVal<T, T2>(arr: T[], func: (t: T) => T2): T2[] {
   return [...set];
 }
 
-export function uniqueBy<T, T2>(arr: T[], by: (t: T) => T2): T[] {
-  const set = new Set<T2>();
-  return arr.filter(item => {
-    const key = by(item);
-    if (set.has(key)) {
-      return false;
-    }
-    set.add(key);
-    return true;
-  });
-}

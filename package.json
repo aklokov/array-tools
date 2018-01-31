@@ -1,6 +1,6 @@
 {
   "name": "@vlr/array-tools",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Set of DRY tools to work with array. Typescript style.",
   "files": [
     "build/src"
@@ -30,5 +30,7 @@
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "object-hash": "^1.2.0"
+  }
 }

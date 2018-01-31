@@ -11,6 +11,7 @@ __export(require("./last-first"));
 __export(require("./min-max"));
 __export(require("./splitInGroups"));
 __export(require("./unique"));
+__export(require("./uniqueBy"));
 __export(require("./sort"));
 __export(require("./areEqual"));
 __export(require("./areEquivalent"));

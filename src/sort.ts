@@ -9,7 +9,7 @@ export function sort<TItem, TVal>(array: TItem[], func?: (item: TItem) => TVal):
     const val1 = func(item1);
     const val2 = func(item2);
     if (val1 < val2) {
-      return - 1;
+      return -1;
     } else if (val1 > val2) {
       return 1;
     } else {
