@@ -15,4 +15,5 @@ __export(require("./uniqueBy"));
 __export(require("./sort"));
 __export(require("./areEqual"));
 __export(require("./areEquivalent"));
+__export(require("./except"));
 //# sourceMappingURL=index.js.map

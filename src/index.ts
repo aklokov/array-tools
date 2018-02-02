@@ -10,3 +10,4 @@ export * from "./uniqueBy";
 export * from "./sort";
 export * from "./areEqual";
 export * from "./areEquivalent";
+export * from "./except";
